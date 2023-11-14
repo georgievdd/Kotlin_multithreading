@@ -10,7 +10,7 @@ class Cashier(val bank: Bank) : Thread() {
                 transaction.start()
             } catch (e: InterruptedException) {
                 //Thread.currentThread().interrupt()
-                break
+                //break
             }
         }
     }
